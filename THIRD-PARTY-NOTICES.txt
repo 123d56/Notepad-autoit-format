@@ -1,0 +1,17 @@
+Third-party components
+======================
+
+1) Tidy.exe and its data files (tools\tidy\, tidy\ inside the release zip)
+   Source : AutoIt Script Editor (SciTE4AutoIt3)
+            https://www.autoitscript.com/site/autoit-script-editor/downloads/
+   Version: Tidy v21.316.1639.1 (2021-03-16)
+   Author : Jos van der Zande
+   Files  : Tidy.exe, functions.tbl, keywords.tbl, macros.tbl, au3.api,
+            UserFunctions.txt, Tidy.ini
+   Note   : This plugin does not modify Tidy; it only invokes it.
+
+2) Notepad++ plugin SDK headers (src\sdk\*.h)
+   Source : https://github.com/notepad-plus-plus/notepad-plus-plus (GPLv3)
+   Used   : compile-time interface declarations only.
+
+3) Notepad++ itself is GPLv3 software; this repository does not include it.
